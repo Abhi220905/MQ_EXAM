@@ -1,0 +1,69 @@
+<!-- ​In this task, you must style a contact form, focusing on form elements like input fields and labels. They should adjust properties like margin, padding, and border to create an attractive and user-friendly form design. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title> 
+
+        <!------------- link ----------- -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="contact-form">
+     <form>  
+        <h1>Contact Form</h1>
+        <hr>
+        <br>
+         <div class="details"> 
+            <label for="Name"> First Name:</label>  
+            <input type="text" required placeholder="Enter Your Name">
+         
+            <label for="Email">Email:</label>  
+            <input type="Email" required name="Email" placeholder="Abc12@gmail.com">
+           
+            <label for="Age">Age:</label>   
+            <input type="number"  required name="age">
+            
+            <label for="number">Phone No:</label>   
+            <input type="tel" name="number" required maxlength="10">
+        </div>  
+  
+         <div class="gender">
+            <label for="Gander">Gander:</label> <br>
+            <input type="Radio" name="radio"> Male 
+            <input type="Radio" name="radio"> Female
+            <input type="Radio" name="radio"> Other 
+        </div> 
+        <div class="city">
+            <label > City:</label> <br>
+            <select name="City">Ahmedabad
+            <option value="City">Ahmedabad</option>
+            <option value="City">Surat</option>
+            <option value="City">Jamnagar</option>
+            <option value="City">Baroda</option>
+             </select>
+         </div>
+             
+             
+             <div class="hobbies">
+                 <label for="Hobbies">Hobbies</label> <br>
+                 <select>
+                     <option value="">Cricket</option>
+                     <option value="">Chess</option>
+                     <option value="">Vollyball</option>
+                     <option value="">badminton </option> 
+                    </select>
+              </div>
+        <div class="btn">
+             <button>Submit</button> &nbsp; &nbsp;
+             <button>Reset</button>  
+         </div>
+ </div> 
+ </form>  
+</body>
+</html>

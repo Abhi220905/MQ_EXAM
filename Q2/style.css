@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    display: flex;  
+    padding: 50px;
+}
+.contact-form{
+    border: 1px solid black ;
+    border-radius: 5px; 
+    padding: 25px;
+    background-color: #e0abab; 
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+ 
+
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #524f4f;
+}
+
+.details input{ 
+    padding: 12px;   
+    margin-bottom: 16px;  
+    width: 100%;  
+    margin-top: 6px;  
+    border-radius: 4px;  
+    border: 1px solid #ccc;  
+}
+
+.gender input{
+    margin: 10px; 
+} 
+
+.city select{
+    margin: 10px;
+    padding: 10px;
+}
+
+.hobbies select{
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{ 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    width: 100px; 
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+  /*------------------------------------- Media Query ---------------- */
+  
+  @media (max-width:600px){
+    .contact-form{
+        background-color: antiquewhite;
+    }
+  }
+
+  @media (min-width:600px){ 
+    .contact-form{
+        background-color: rgb(168, 223, 143);
+    }
+  }
+
+  @media (min-width:992px){ 
+    .contact-form{
+        background-color: rgb(230, 176, 105);
+    }
+  }
+
+  @media (min-width:1200px){ 
+    .contact-form{
+        background-color: rgb(236, 202, 202);
+    }
+  }
